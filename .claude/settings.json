@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m helpers.db:*)",
+      "Bash(python3 -m helpers.db:*)",
+      "Bash(python -m helpers.schema:*)",
+      "Bash(python3 -m helpers.schema:*)",
+      "Bash(python -m helpers.checks:*)",
+      "Bash(python3 -m helpers.checks:*)",
+      "Bash(python scripts/focus_report.py:*)",
+      "Bash(python3 scripts/focus_report.py:*)",
+      "Bash(python outputs/:*)",
+      "Bash(python3 outputs/:*)",
+      "Bash(pytest:*)",
+      "Read(.knowledge/**)",
+      "Read(outputs/**)",
+      "Write(outputs/**)",
+      "Edit(.knowledge/**)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(**/.env)",
+      "Bash(sqlite3:*)",
+      "Bash(psql:*)"
+    ]
+  }
+}

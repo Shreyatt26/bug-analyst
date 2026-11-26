@@ -1,0 +1,34 @@
+# Which database the analyst queries. Run `/connect-data` in Claude Code to change it.
+# Secrets never go in this file: use ${ENV_VAR} references (resolved at runtime).
+
+default: demo
+
+sources:
+  demo:
+    type: sqlite
+    path: data/bugs.db
+    description: Synthetic multi-product bug tracker (Acme Cloud). Safe to play with.
+
+  # --- Examples: uncomment one, set `default:` to its name ---------------------
+
+  # warehouse:
+  #   type: postgres                      # pip install psycopg2-binary
+  #   dsn: ${BUG_DB_DSN}                  # postgresql://readonly_user:...@host:5432/eng
+  #   schema: jira
+  #   description: Jira issues replicated into Postgres via Fivetran
+
+  # duck:
+  #   type: duckdb                        # pip install duckdb
+  #   path: data/jira_export.duckdb
+  #   description: Local DuckDB built from a Jira CSV export (see scripts/import_csv.py)
+
+  # snowflake / bigquery: any SQLAlchemy URL works:
+  # sf:
+  #   type: sqlalchemy                    # pip install sqlalchemy snowflake-sqlalchemy
+  #   url: ${SNOWFLAKE_URL}
+
+# Guardrails applied to every query, whatever the source
+guardrails:
+  max_rows: 5000          # rows returned to the agent per query
+  timeout_seconds: 60
+  read_only: true         # never change this for production data

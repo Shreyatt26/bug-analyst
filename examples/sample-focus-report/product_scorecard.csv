@@ -1,0 +1,7 @@
+product_name,defects,high_sev,prod_escapes,tickets,untriaged,high_sev_per_1k_mau,kloc,recent_3m,prior_3m,trend_pct,mttr_high_sev,n_fixed_high_sev,reopen_pct,open_now,open_age_days,team_name,headcount,high_sev_per_kloc,defects_per_engineer,high_sev_rate,z_trend_pct,z_tickets,z_mttr_high_sev,z_reopen_pct,focus_score
+Mobile App,840,358,608,928,36,0.075,85.0,99,71,39.437,6.415,357,7.607,65,26.543,Mobile Eng,11,4.212,76.364,2.094,0.882,0.219,-0.521,-0.446,0.797
+Payments API,531,256,422,2184,26,0.389,137.0,108,73,47.945,6.192,255,8.755,32,40.135,Payments Eng,9,1.869,59.0,0.143,1.223,2.057,-0.552,-0.335,0.47
+Search,508,127,391,478,38,0.031,81.0,29,37,-21.622,8.315,127,35.02,49,21.428,Search & Discovery,7,1.568,72.571,-0.108,-1.563,-0.44,-0.251,2.207,-0.123
+Admin Console,105,40,74,107,7,1.457,38.0,10,10,0.0,25.708,39,5.263,23,41.209,Internal Tools,3,1.053,35.0,-0.536,-0.697,-0.982,2.211,-0.673,-0.244
+Data Pipeline,301,109,218,272,20,7.748,123.0,27,20,35.0,8.362,109,10.417,27,41.889,Data Platform,8,0.886,37.625,-0.675,0.704,-0.741,-0.245,-0.174,-0.269
+Web Dashboard,1214,122,900,701,76,0.015,205.0,28,27,3.704,5.555,122,6.25,120,18.548,Web Platform,14,0.595,86.714,-0.917,-0.549,-0.113,-0.642,-0.578,-0.631

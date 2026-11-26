@@ -1,0 +1,11 @@
+pandas>=2.0
+matplotlib>=3.7
+pyyaml>=6.0
+pytest>=7.0
+# standalone agent (agent.py)
+anthropic>=0.40
+# optional drivers - install the one for your data source
+# duckdb
+# psycopg2-binary
+# sqlalchemy snowflake-sqlalchemy
+# sqlalchemy sqlalchemy-bigquery

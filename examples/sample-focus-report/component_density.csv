@@ -1,0 +1,27 @@
+product_name,component_name,kloc,defects,high_sev,defects_per_kloc
+Mobile App,offline-sync,9.0,302,161,33.556
+Payments API,refunds,14.0,227,140,16.214
+Mobile App,push-notifications,8.0,103,41,12.875
+Search,autocomplete,9.0,93,29,10.333
+Mobile App,auth,12.0,114,41,9.5
+Web Dashboard,navigation,25.0,210,15,8.4
+Web Dashboard,i18n,18.0,146,15,8.111
+Search,query-parser,12.0,95,22,7.917
+Mobile App,payments-sdk,15.0,89,28,5.933
+Web Dashboard,billing-pages,20.0,115,11,5.75
+Payments API,webhooks,11.0,62,22,5.636
+Web Dashboard,settings,30.0,169,17,5.633
+Search,ranking,27.0,144,35,5.333
+Web Dashboard,charts,48.0,243,25,5.062
+Mobile App,feed-ui,41.0,196,68,4.78
+Search,indexer,33.0,138,36,4.182
+Data Pipeline,scheduler,18.0,72,25,4.0
+Web Dashboard,reports,64.0,255,29,3.984
+Payments API,checkout,38.0,117,46,3.079
+Admin Console,user-mgmt,16.0,47,17,2.938
+Data Pipeline,ingest,45.0,116,40,2.578
+Admin Console,permissions,13.0,32,15,2.462
+Admin Console,audit-log,9.0,19,6,2.111
+Payments API,fraud-rules,22.0,41,19,1.864
+Data Pipeline,transforms,60.0,93,39,1.55
+Payments API,ledger,52.0,58,18,1.115

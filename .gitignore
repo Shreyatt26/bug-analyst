@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/*.db
+data/raw/
+outputs/*
+!outputs/.gitkeep
+.venv/
+.DS_Store
+.claude/settings.local.json
